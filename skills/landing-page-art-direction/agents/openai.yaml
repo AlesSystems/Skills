@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Page Art Direction"
+  short_description: "Shape reference ideas into an original page brief"
+  default_prompt: "Use $landing-page-art-direction to turn my project context and website references into an original design brief with desktop and mobile wireframes."
