@@ -1,0 +1,19 @@
+{
+  "name": "frame-sample-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture.mjs",
+    "preview": "remotion studio src/index.jsx",
+    "still": "remotion still src/index.jsx FrameDemo out/preview.png --frame=615",
+    "render": "node scripts/check.mjs --source && remotion render src/index.jsx FrameDemo out/frame-demo.mp4 --codec=h264 --audio-codec=aac --pixel-format=yuv420p --color-space=bt709 --image-format=png --concurrency=4",
+    "check": "node scripts/check.mjs out/frame-demo.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.532",
+    "remotion": "4.0.532",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  }
+}
