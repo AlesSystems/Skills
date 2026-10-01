@@ -8,6 +8,8 @@ Reusable skills maintained in [AlesSystems/Skills](https://github.com/AlesSystem
 | --- | --- |
 | [landing-page-art-direction](skills/landing-page-art-direction/SKILL.md) | Turn project context and reference ideas into one original design brief and desktop/mobile wireframes, before implementation. |
 
+The [Frame product demo example](examples/product-demo-js/README.md) provides an editable Remotion walkthrough, local screenshot captures, a pinned dependency lockfile, and rendered-media checks. Obtain the documented music track from its official provider before rendering; raw music and generated output are excluded from Git.
+
 ## Use
 
 Point your agent at the skill’s `SKILL.md`, or invoke `$landing-page-art-direction` after making it available in your agent’s skill environment.
