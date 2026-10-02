@@ -7,7 +7,7 @@
 - [x] Capture a migration manifest before moving files.
 - [x] Transfer six skill directories and two pinned dependency submodules.
 - [x] Verify file equivalence, existing destination files, and skill checks.
-- [ ] Revert merged source PRs 24 and 23 without rewriting shared history.
+- [x] Prepare history-preserving reverts of source PRs 24 and 23; verify the baseline tree.
 - [ ] Review both diffs independently, then publish and land the transfer and revert.
 - [ ] Update the primary checkout, owned Codex links, and default library guidance.
 - [ ] Phase D: Keep the audit trail.
