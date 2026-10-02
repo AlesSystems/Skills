@@ -1,0 +1,6 @@
+[submodule "refs/cursor-plugins"]
+	path = refs/cursor-plugins
+	url = https://github.com/cursor/plugins.git
+[submodule "refs/impeccable"]
+	path = refs/impeccable
+	url = https://github.com/pbakaus/impeccable.git

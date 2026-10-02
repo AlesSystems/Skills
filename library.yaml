@@ -1,0 +1,93 @@
+version: 1
+root: .
+sources:
+  self:
+    type: git
+    local_path: ~/Desktop/Ales/Skills
+    url: https://github.com/AlesSystems/Skills.git
+entries:
+  diagram-design:
+    type: skill
+    path: skills/diagram-design/SKILL.md
+    aliases:
+    - design.diagram-design
+    - /design:diagram-design
+    tags:
+    - design
+    - diagram-design
+    - diagrams
+    - html
+    - svg
+    status: active
+    prominence: regular
+    category: design
+    notes: Third-party specialist. Figures. Own skin unless the user names a Tutoria look.
+  3d-ui-design:
+    type: skill
+    path: skills/3d-ui-design/SKILL.md
+    tags:
+    - design
+    - web
+    - 3d
+    - models
+    status: active
+    prominence: regular
+    category: design
+  software-idea-discovery:
+    type: skill
+    path: skills/software-idea-discovery/SKILL.md
+    tags:
+    - software-ideas
+    - market-research
+    - product-discovery
+    - forecasting
+    status: active
+    prominence: regular
+    category: product-discovery
+  product-demo-js:
+    type: skill
+    path: skills/product-demo-js/SKILL.md
+    aliases:
+    - /product-demo-js
+    tags:
+    - video
+    - javascript
+    - remotion
+    - product-demo
+    status: active
+    prominence: regular
+    category: design
+    notes: Screenshot-based product demos with editable JavaScript, sourced music, and verified local MP4 export.
+  poteto-mode:
+    type: skill
+    path: skills/also/poteto-mode/SKILL.md
+    aliases:
+    - /poteto-mode
+    - poteto
+    tags:
+    - core-workflow
+    - pstack
+    - codex
+    status: active
+    prominence: starred
+    category: core-workflow
+    notes: Codex adapter over pinned cursor/plugins submodule; dependencies load on demand.
+  impeccable:
+    type: skill
+    path: skills/also/impeccable/SKILL.md
+    aliases:
+    - /impeccable
+    tags:
+    - design
+    - frontend
+    - codex
+    status: active
+    prominence: regular
+    category: design
+    notes: Upstream Impeccable Codex build from pinned refs/impeccable; see docs/impeccable-codex.md.
+  landing-page-art-direction:
+    type: skill
+    path: skills/landing-page-art-direction/SKILL.md
+    status: active
+    prominence: regular
+    category: design
