@@ -10,11 +10,8 @@ The default library for our own reusable skills is [AlesSystems/Skills](https://
 | [software-idea-discovery](skills/software-idea-discovery/SKILL.md) | Interview the developer, research their preferred market, identify underserved needs, and assess differentiated software opportunities with future scenarios and validation experiments. |
 | [product-demo-js](skills/product-demo-js/SKILL.md) | Create editable Remotion product demos with JavaScript, real screenshots, licensed music, and rendered-media checks. |
 | [3d-ui-design](skills/3d-ui-design/SKILL.md) | Design, implement, and critique interactive 3D web interfaces, including model sourcing, scene integration, accessibility, and browser verification. |
-| [diagram-design](skills/diagram-design/SKILL.md) | Create and verify architecture diagrams, charts, and other visual explanations with the retained templates and parser tools. |
-| [poteto-mode](skills/also/poteto-mode/SKILL.md) | Run the pinned Poteto workflow through the Codex adapter, with its dependency skills resolved on demand. |
-| [impeccable](docs/impeccable-codex.md) | Build and use the pinned Impeccable Codex design workflow. |
 
-The migrated skills, adapters, dependency pins, and licenses live in this repository. The [migration record](work/poteto/skills-migration/plan.md) and its executable checks document the transfer.
+This repository contains only our own skills. External skill collections and their adapters belong in separate sources. The [owned-library acceptance record](docs/validation/owned-skills-only.md) documents the cleanup.
 
 The [Frame product demo example](examples/product-demo-js/README.md) provides an editable Remotion walkthrough, local screenshot captures, a pinned dependency lockfile, and rendered-media checks. Obtain the documented music track from its official provider before rendering; raw music and generated output are excluded from Git.
 
@@ -22,7 +19,7 @@ The [Frame product demo example](examples/product-demo-js/README.md) provides an
 
 Point your agent at the skill's `SKILL.md`, or invoke its name after making it available in your agent's skill environment. Keep native Codex entries as symlinks to this checkout. Restart Codex after changing those entries.
 
-Initialize the pinned dependencies with `git submodule update --init --recursive`. Follow [Poteto setup](docs/poteto-codex.md) and [Impeccable setup](docs/impeccable-codex.md) for those workflows. Their dependencies remain in this repository rather than separate installed skill copies.
+No external skill submodules or generated adapter bundles are required. For updates, inspect the checkout, fast-forward safely, and validate the affected owned skills.
 
 Example request:
 
