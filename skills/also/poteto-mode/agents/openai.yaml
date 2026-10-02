@@ -1,0 +1,6 @@
+interface:
+  display_name: "Poteto Mode"
+  short_description: "Full pstack workflow adapted for Codex"
+  default_prompt: "Use $poteto-mode to investigate, implement, and verify this task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Idea Discovery"
+  short_description: "Find market gaps and test original software opportunities"
+  default_prompt: "Use $software-idea-discovery to interview me about my strengths and preferred market, research unmet needs, and assess differentiated software opportunities and their future prospects."

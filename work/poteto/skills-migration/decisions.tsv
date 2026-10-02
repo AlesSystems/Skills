@@ -1,0 +1,3 @@
+ts	phase	decision	why	evidence	result
+2026-10-02T08:41:14Z	frame	Move both authored merged PRs	The user requested all their changes and named the new default repository	https://github.com/tutoria-hub/agent-library/pull/23, https://github.com/tutoria-hub/agent-library/pull/24	Scope fixed at two merged PRs
+2026-10-02T08:41:14Z	baseline	Capture source and destination file hashes before transfer	The migration must preserve authored behavior and existing destination content	work/poteto/skills-migration/manifest.json, work/poteto/skills-migration/verify.py	Red baseline captured; required destination files are absent
