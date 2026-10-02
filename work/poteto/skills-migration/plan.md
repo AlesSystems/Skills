@@ -3,20 +3,21 @@
 - [x] Read the Principles section of poteto-mode.
 - [x] Phase A: Frame.
 - [x] Phase B: Design the workflow.
-- [ ] Phase C: Run the loop.
+- [x] Phase C: Run the loop.
 - [x] Capture a migration manifest before moving files.
 - [x] Transfer six skill directories and two pinned dependency submodules.
 - [x] Verify file equivalence, existing destination files, and skill checks.
 - [x] Prepare history-preserving reverts of source PRs 24 and 23; verify the baseline tree.
-- [ ] Review both diffs independently, then publish and land the transfer and revert.
-- [ ] Update the primary checkout, owned Codex links, and default library guidance.
-- [ ] Phase D: Keep the audit trail.
-- [ ] Phase E: Verify and hand back.
+- [x] Review both diffs independently, then publish and land the transfer and revert.
+- [x] Update the primary checkout, owned Codex links, and default library guidance.
+- [x] Phase D: Keep the audit trail.
+- [x] Phase E: Verify and hand back.
 
 Done means the source main tree matches its pre-contribution baseline, all owned
 skills and required dependencies are available from the destination main branch,
 existing destination content is preserved, the six owned Codex links resolve to
-that checkout, and the default guidance names AlesSystems/Skills.
+that checkout, the two removed imported Claude entries resolve there, and the
+default guidance names AlesSystems/Skills.
 
 The scope is source PRs 23 and 24, 115 changed paths plus the unchanged support
 files required by the updated diagram skill. Preserve directory nesting and
