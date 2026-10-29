@@ -1,0 +1,50 @@
+version: 1
+root: .
+sources:
+  self:
+    type: git
+    local_path: ~/Desktop/Ales/Skills
+    url: https://github.com/AlesSystems/Skills.git
+entries:
+  3d-ui-design:
+    type: skill
+    path: skills/3d-ui-design/SKILL.md
+    tags:
+    - design
+    - web
+    - 3d
+    - models
+    status: active
+    prominence: regular
+    category: design
+  software-idea-discovery:
+    type: skill
+    path: skills/software-idea-discovery/SKILL.md
+    tags:
+    - software-ideas
+    - market-research
+    - product-discovery
+    - forecasting
+    status: active
+    prominence: regular
+    category: product-discovery
+  product-demo-js:
+    type: skill
+    path: skills/product-demo-js/SKILL.md
+    aliases:
+    - /product-demo-js
+    tags:
+    - video
+    - javascript
+    - remotion
+    - product-demo
+    status: active
+    prominence: regular
+    category: design
+    notes: Screenshot-based product demos with editable JavaScript, sourced music, and verified local MP4 export.
+  landing-page-art-direction:
+    type: skill
+    path: skills/landing-page-art-direction/SKILL.md
+    status: active
+    prominence: regular
+    category: design
